@@ -1,0 +1,39 @@
+@import "templates";
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts>ul{
+  @extend %ul-clear;
+  display: flex;
+  li{
+    color: $DARK_GREY_COLOR;
+    margin: 0 20px;
+    font: {
+      size: 20px;
+      weight: bold;
+    };
+  }
+}
+
+.authorizations >ul{
+  @extend %ul-clear;
+  display: flex;
+  li{
+    margin: 0 20px;
+    font: {
+      size: 18px;
+      //weight: bold;
+    }
+    a{
+      text-decoration: none;
+      color: $DARK_GREY_COLOR;
+      &:hover{
+        color: $AQUA_COLOR;
+      }
+    }
+  }
+}

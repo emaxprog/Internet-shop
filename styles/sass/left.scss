@@ -1,0 +1,49 @@
+@import "templates";
+
+.menu-products{
+  margin:{
+    top: 20px;
+  }
+  ul>li{
+    position: relative;
+  }
+  ul{
+    @extend %ul-clear;
+    li{
+      a{
+        text-decoration: none;
+        color: $DARK_GREY_COLOR;
+        display: block;
+        padding: 20px;
+        border: 1px solid $AQUA_COLOR;
+        margin-bottom: -1px;
+        &:hover{
+          background: $DARK_GREY_COLOR;
+          color: $WHITE_COLOR;
+        }
+      }
+    }
+
+    li:hover .sub-menu{
+      display: block;
+    }
+  }
+}
+
+.menu-products .sub-menu{
+  position: absolute;
+  display: none;
+  z-index: 10;
+  left: 238px;
+  border-left: 2px solid $AQUA_COLOR;
+  a{
+    background: $WHITE_COLOR;
+  }
+}
+
+.sub-menu-notebook,.sub-menu-phone{
+  top:0px;
+  a{
+    width: 210px;
+  }
+}

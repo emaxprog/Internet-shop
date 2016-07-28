@@ -9,3 +9,23 @@ body{
   margin: 0 auto;
 }
 
+/*Шапка сайта*/
+
+@import "header";
+
+
+/*Меню сайта*/
+@import "menu";
+
+
+/*Контент*/
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Левая часть*/
+@import "left";
+
+/*Центральная часть*/
+@import "center";

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*Цвета сайта*/
+/*Чистый список*/
+.menu-products ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+.menu-products {
+  margin-top: 20px; }
+  .menu-products ul > li {
+    position: relative; }
+  .menu-products ul li a {
+    text-decoration: none;
+    color: #303030;
+    display: block;
+    padding: 20px;
+    border: 1px solid #00a2e8;
+    margin-bottom: -1px; }
+    .menu-products ul li a:hover {
+      background: #303030;
+      color: #ffffff; }
+  .menu-products ul li:hover .sub-menu {
+    display: block; }
+
+.menu-products .sub-menu {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  left: 238px;
+  border-left: 2px solid #00a2e8; }
+  .menu-products .sub-menu a {
+    background: #ffffff; }
+
+.sub-menu-notebook, .sub-menu-phone {
+  top: 0px; }
+  .sub-menu-notebook a, .sub-menu-phone a {
+    width: 210px; }
+
+/*# sourceMappingURL=left.css.map */

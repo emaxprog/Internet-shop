@@ -1,3 +1,34 @@
+@charset "UTF-8";
+/*Цвета сайта*/
+/*Чистый список*/
+.contacts > ul, .authorizations > ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.contacts > ul {
+  display: flex; }
+  .contacts > ul li {
+    color: #303030;
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: bold; }
+
+.authorizations > ul {
+  display: flex; }
+  .authorizations > ul li {
+    margin: 0 20px;
+    font-size: 18px; }
+    .authorizations > ul li a {
+      text-decoration: none;
+      color: #303030; }
+      .authorizations > ul li a:hover {
+        color: #00a2e8; }
 
 /*# sourceMappingURL=header.css.map */

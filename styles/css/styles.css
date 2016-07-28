@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -6,5 +7,120 @@ body {
 .mid {
   width: 1000px;
   margin: 0 auto; }
+
+/*Шапка сайта*/
+/*Цвета сайта*/
+/*Чистый список*/
+.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.contacts > ul {
+  display: flex; }
+  .contacts > ul li {
+    color: #303030;
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: bold; }
+
+.authorizations > ul {
+  display: flex; }
+  .authorizations > ul li {
+    margin: 0 20px;
+    font-size: 18px; }
+    .authorizations > ul li a {
+      text-decoration: none;
+      color: #303030; }
+      .authorizations > ul li a:hover {
+        color: #00a2e8; }
+
+/*Меню сайта*/
+/*Цвета сайта*/
+/*Чистый список*/
+.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+.wrapper-menu {
+  background: #00a2e8; }
+
+.menu > ul {
+  display: flex;
+  justify-content: center; }
+  .menu > ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 20px; }
+    .menu > ul li a:hover {
+      background: #303030;
+      color: #ffffff; }
+
+/*Контент*/
+.content {
+  display: flex;
+  justify-content: space-between; }
+
+/*Левая часть*/
+/*Цвета сайта*/
+/*Чистый список*/
+.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+.menu-products {
+  margin-top: 20px; }
+  .menu-products ul > li {
+    position: relative; }
+  .menu-products ul li a {
+    text-decoration: none;
+    color: #303030;
+    display: block;
+    padding: 20px;
+    border: 1px solid #00a2e8;
+    margin-bottom: -1px; }
+    .menu-products ul li a:hover {
+      background: #303030;
+      color: #ffffff; }
+  .menu-products ul li:hover .sub-menu {
+    display: block; }
+
+.menu-products .sub-menu {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  left: 238px;
+  border-left: 2px solid #00a2e8; }
+  .menu-products .sub-menu a {
+    background: #ffffff; }
+
+.sub-menu-notebook, .sub-menu-phone {
+  top: 0px; }
+  .sub-menu-notebook a, .sub-menu-phone a {
+    width: 210px; }
+
+/*Центральная часть*/
+/*Цвета сайта*/
+/*Чистый список*/
+.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+.center > .afisha > img {
+  width: 740px; }
 
 /*# sourceMappingURL=styles.css.map */

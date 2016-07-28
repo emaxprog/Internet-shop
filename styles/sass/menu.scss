@@ -1,0 +1,22 @@
+@import "templates";
+
+.wrapper-menu{
+  background: $AQUA_COLOR;
+}
+
+.menu>ul{
+  @extend %ul-clear;
+  display: flex;
+  justify-content:center;
+  li a{
+    display: block;
+    text-decoration: none;
+    color: $WHITE_COLOR;
+    font-size: 18px;
+    padding: 20px;
+    &:hover{
+      background: $DARK_GREY_COLOR;
+      color: $WHITE_COLOR;
+    }
+  }
+}
