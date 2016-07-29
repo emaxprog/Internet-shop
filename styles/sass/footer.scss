@@ -1,0 +1,10 @@
+@import "templates";
+
+
+.wrapper-footer{
+  background: $DARK_GREY_COLOR;
+}
+
+.footer-nav>.menu ul{
+  @extend %ul-clear;
+}

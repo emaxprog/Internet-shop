@@ -11,7 +11,7 @@ body {
 /*Шапка сайта*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul, .block .about-product ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .footer-nav > .menu ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -44,7 +44,7 @@ body {
 /*Меню сайта*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul, .block .about-product ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .footer-nav > .menu ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -53,16 +53,16 @@ body {
 .wrapper-menu {
   background: #00a2e8; }
 
-.menu > ul {
+.mid > .menu > ul {
   display: flex;
   justify-content: center; }
-  .menu > ul li a {
+  .mid > .menu > ul li a {
     display: block;
     text-decoration: none;
     color: #ffffff;
     font-size: 18px;
     padding: 20px; }
-    .menu > ul li a:hover {
+    .mid > .menu > ul li a:hover {
       background: #303030;
       color: #ffffff; }
 
@@ -78,7 +78,7 @@ body {
 /*Левая часть*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul, .block .about-product ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .footer-nav > .menu ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -118,7 +118,7 @@ body {
 /*Центральная часть*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul, .block .about-product ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .footer-nav > .menu ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -169,5 +169,17 @@ body {
 
 .hot-products h1, .leaders-products h1 {
   font-weight: normal; }
+
+/*Футер*/
+/*Цвета сайта*/
+/*Чистый список*/
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .footer-nav > .menu ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+.wrapper-footer {
+  background: #303030; }
 
 /*# sourceMappingURL=styles.css.map */

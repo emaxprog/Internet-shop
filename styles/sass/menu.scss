@@ -4,7 +4,7 @@
   background: $AQUA_COLOR;
 }
 
-.menu>ul{
+.mid>.menu>ul{
   @extend %ul-clear;
   display: flex;
   justify-content:center;

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Цвета сайта*/
 /*Чистый список*/
-.menu > ul {
+.mid > .menu > ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -10,16 +10,16 @@
 .wrapper-menu {
   background: #00a2e8; }
 
-.menu > ul {
+.mid > .menu > ul {
   display: flex;
   justify-content: center; }
-  .menu > ul li a {
+  .mid > .menu > ul li a {
     display: block;
     text-decoration: none;
     color: #ffffff;
     font-size: 18px;
     padding: 20px; }
-    .menu > ul li a:hover {
+    .mid > .menu > ul li a:hover {
       background: #303030;
       color: #ffffff; }
 

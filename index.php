@@ -30,7 +30,7 @@
 </div>
 <div class="wrapper-footer">
     <div class="mid">
-
+        <?php include "include/footer.php"?>
     </div>
 </div>
 </body>
