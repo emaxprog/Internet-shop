@@ -11,7 +11,7 @@ body {
 /*Шапка сайта*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul {
+.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul, .block .about-product ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -44,7 +44,7 @@ body {
 /*Меню сайта*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul {
+.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul, .block .about-product ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -70,11 +70,15 @@ body {
 .content {
   display: flex;
   justify-content: space-between; }
+  .content .left {
+    flex-basis: 240px; }
+  .content .center {
+    flex-basis: 740px; }
 
 /*Левая часть*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul {
+.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul, .block .about-product ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -114,13 +118,56 @@ body {
 /*Центральная часть*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul {
+.contacts > ul, .authorizations > ul, .menu > ul, .menu-products ul, .block .about-product ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
   padding: 0; }
 
+/*Афиша*/
+.center > .afisha {
+  margin-top: 20px; }
+
 .center > .afisha > img {
   width: 740px; }
+
+/*Блоки товаров*/
+.blocks {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+
+.block {
+  border: 1px solid #cccccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 35px; }
+  .block .img-product > img {
+    width: 310px; }
+  .block .about-product ul {
+    text-align: center; }
+    .block .about-product ul li {
+      margin-bottom: 10px; }
+      .block .about-product ul li:first-child {
+        margin-top: 20px;
+        font-size: 18px; }
+      .block .about-product ul li:nth-child(2) {
+        text-decoration: line-through; }
+      .block .about-product ul li:last-child {
+        font-size: 26px;
+        margin-bottom: 20px; }
+  .block .button-add-basket a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background: #00a2e8;
+    text-align: center;
+    color: #ffffff; }
+    .block .button-add-basket a:hover {
+      background: #303030;
+      color: #ffffff; }
+
+.hot-products h1, .leaders-products h1 {
+  font-weight: normal; }
 
 /*# sourceMappingURL=styles.css.map */

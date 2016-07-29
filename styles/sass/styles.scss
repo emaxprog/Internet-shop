@@ -22,6 +22,12 @@ body{
 .content{
   display: flex;
   justify-content: space-between;
+  .left{
+    flex-basis: 1000-740-20px;
+  }
+  .center{
+    flex-basis: 740px;
+  }
 }
 
 /*Левая часть*/
