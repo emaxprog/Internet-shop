@@ -28,7 +28,7 @@
         </div>
     </div>
 </div>
-<div class="wrapper-footer">
+<div class="wrapper-footer clearfix">
     <div class="mid">
         <?php include "include/footer.php"?>
     </div>

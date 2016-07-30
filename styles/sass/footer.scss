@@ -1,10 +1,58 @@
 @import "templates";
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .wrapper-footer{
+  margin: 0;
+  padding: 0;
   background: $DARK_GREY_COLOR;
 }
 
-.footer-nav>.menu ul{
+.f-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  h2{
+    margin: 20px 0px;
+    padding: 0;
+    color: $WHITE_COLOR;
+  }
+}
+
+
+.f-nav>.menu ul{
   @extend %ul-clear;
+  li{
+    margin: 10px 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    color: $WHITE_COLOR;
+    &:hover{
+      color: $AQUA_COLOR;
+    }
+  }
+}
+
+.f-contacts{
+  ul{
+    @extend %ul-clear;
+    color: $WHITE_COLOR;
+    li{
+      margin: 10px 0;
+      padding: 0;
+    }
+  }
+}
+
+.copy{
+  border-top: 1px solid $AQUA_COLOR;
+  text-align: center;
+  padding:20px 0;
+  color: $WHITE_COLOR;
 }
