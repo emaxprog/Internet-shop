@@ -17,7 +17,7 @@
 </div>
 <div class="wrapper-menu">
     <div class="mid">
-        <?php include "include/menu.html"?>
+        <?php include "include/menu.php" ?>
     </div>
 </div>
 <div class="wrapper-content">

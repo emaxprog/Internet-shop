@@ -2,7 +2,7 @@
     <div class="f-container">
         <div class="f-nav">
             <h2>Навигация</h2>
-            <?php include "menu.html"?>
+            <?php include "menu.php" ?>
         </div>
         <div class="f-payment-methods">
             <h2>Способы оплаты</h2>

@@ -9,6 +9,8 @@ body{
   margin: 0 auto;
 }
 
+
+
 /*Шапка сайта*/
 
 @import "header";
@@ -38,3 +40,7 @@ body{
 
 /*Футер*/
 @import "footer";
+
+
+/*Модальное окно*/
+@import "popup";

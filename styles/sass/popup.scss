@@ -1,0 +1,122 @@
+@import "templates";
+
+.popup-checkbox, .popup{
+  display: none;
+}
+
+.popup-checkbox:checked+.popup{
+  display: block;
+  opacity: 1;
+}
+
+.popup{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  z-index: 10;
+  &:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background: $BLACK_COLOR;
+    opacity: 0.5;
+    z-index: 1;
+  }
+}
+
+.popup-content{
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width:400px;
+  height: 550px;
+  box-sizing: border-box;
+  margin: auto;
+  background: $WHITE_COLOR;
+  z-index: 2;
+  border: 1px solid $LIGHT_GREY_COLOR;
+  padding: 20px;
+}
+
+.popup-closer{
+  position: absolute;
+  top: -33px;
+  right: -32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $LIGHT_GREY_COLOR;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  color: $WHITE_COLOR;
+  &:hover{
+    background: $DARK_GREY_COLOR;
+    cursor: pointer;
+  }
+}
+
+.popup-shower{
+  display: block;
+  font-size: 18px;
+  color: $WHITE_COLOR;
+  padding: 20px;
+  &:hover{
+    background: $DARK_GREY_COLOR;
+    color: $WHITE_COLOR;
+    cursor:pointer;
+  }
+}
+
+.feedback-content{
+  width: 100%;
+  height: 100%;
+}
+
+.feedback-content, .row{
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 0 20px 0;
+  color: $DARK_GREY_COLOR;
+  h2{
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+  label{
+    text-align: center;
+  }
+
+  .txt{
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .txtarea{
+    height: 130px;
+  }
+
+  .feedback-button{
+    display: flex;
+    justify-content: center;
+    #submitbtn{
+      border: none;
+      padding: 10px;
+      text-transform: uppercase;
+      background: $AQUA_COLOR;
+      color: $WHITE_COLOR;
+      font-size: 16px;
+      &:hover{
+        background: $DARK_GREY_COLOR;
+      }
+    }
+  }
+}

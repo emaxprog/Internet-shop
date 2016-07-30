@@ -7,7 +7,7 @@
             <a href="#">О нас</a>
         </li>
         <li>
-            <a href="#">Доставка</a>
+            <?php include "popup.html"?>
         </li>
         <li>
             <a href="#">Гарантия</a>
