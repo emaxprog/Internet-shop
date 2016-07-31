@@ -9,8 +9,6 @@ body {
   margin: 0 auto; }
 
 /*Шапка сайта*/
-/*Цвета сайта*/
-/*Чистый список*/
 .contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
@@ -42,8 +40,6 @@ body {
         color: #00a2e8; }
 
 /*Меню сайта*/
-/*Цвета сайта*/
-/*Чистый список*/
 .contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
@@ -76,8 +72,6 @@ body {
     flex-basis: 740px; }
 
 /*Левая часть*/
-/*Цвета сайта*/
-/*Чистый список*/
 .contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
@@ -117,8 +111,6 @@ body {
     width: 210px; }
 
 /*Футер*/
-/*Цвета сайта*/
-/*Чистый список*/
 .contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
@@ -172,8 +164,6 @@ body {
   color: #ffffff; }
 
 /*Модальное окно*/
-/*Цвета сайта*/
-/*Чистый список*/
 .contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
@@ -281,8 +271,6 @@ body {
         background: #303030; }
 
 /*Страница Контакты*/
-/*Цвета сайта*/
-/*Чистый список*/
 .contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;

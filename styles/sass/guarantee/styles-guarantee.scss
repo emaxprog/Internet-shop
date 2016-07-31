@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  padding:0;
+  font: 16px/24px Arial, Tahoma, sans-serif;
+}
+
+.mid{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+
+
+/*Шапка сайта*/
+
+@import "../include/header";
+
+
+/*Меню сайта*/
+@import "../include/menu";
+
+/*Контент*/
+.content{
+  display: flex;
+  justify-content: space-between;
+  .left{
+    flex-basis: 1000-740-20px;
+  }
+  .center{
+    flex-basis: 740px;
+  }
+}
+
+/*Левая часть*/
+@import "../include/left";
+
+/*Футер*/
+@import "../include/footer";
+
+
+/*Модальное окно*/
+@import "../include/popup";
+
+
+/*Контент*/
+@import "../guarantee/guarantee-content";

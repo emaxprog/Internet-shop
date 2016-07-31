@@ -10,7 +10,7 @@
             <?php include "popup.html"?>
         </li>
         <li>
-            <a href="#">Гарантия</a>
+            <a href="guarantee.php">Гарантия</a>
         </li>
         <li>
             <a href="contacts.php">Контакты</a>
