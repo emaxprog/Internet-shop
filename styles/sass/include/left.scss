@@ -1,8 +1,9 @@
-@import "templates";
+@import "../templates";
 
 .menu-products{
   margin:{
     top: 20px;
+    bottom: 20px;
   }
   ul>li{
     position: relative;

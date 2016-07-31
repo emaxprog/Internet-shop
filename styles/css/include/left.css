@@ -8,7 +8,8 @@
   padding: 0; }
 
 .menu-products {
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-bottom: 20px; }
   .menu-products ul > li {
     position: relative; }
   .menu-products ul li a {

@@ -1,0 +1,30 @@
+@import "../templates";
+
+.contacts{
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 20px 0;
+  h1{
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+}
+
+.contacts-phone, .contacts-email{
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  img{
+    width: 48px;
+    height: 48px;
+  }
+  span{
+    font-size: 22px;
+    margin: 10px;
+  }
+}
+
+.contacts-email{
+  margin:0;
+}

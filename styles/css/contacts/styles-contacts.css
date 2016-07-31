@@ -11,7 +11,7 @@ body {
 /*Шапка сайта*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .f-nav > .menu ul, .f-contacts ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -44,7 +44,7 @@ body {
 /*Меню сайта*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .f-nav > .menu ul, .f-contacts ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -78,7 +78,7 @@ body {
 /*Левая часть*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .f-nav > .menu ul, .f-contacts ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -116,68 +116,10 @@ body {
   .sub-menu-notebook a, .sub-menu-phone a {
     width: 210px; }
 
-/*Центральная часть*/
-/*Цвета сайта*/
-/*Чистый список*/
-.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .f-nav > .menu ul, .f-contacts ul {
-  list-style: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0; }
-
-/*Афиша*/
-.center > .afisha {
-  margin-top: 20px; }
-
-.center > .afisha > img {
-  width: 740px; }
-
-/*Блоки товаров*/
-.blocks {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between; }
-
-.block {
-  border: 1px solid #cccccc;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 35px; }
-  .block:hover {
-    transform: scale(1.1);
-    transition: transform 0.7s; }
-  .block .img-product > img {
-    width: 310px; }
-  .block .about-product ul {
-    text-align: center; }
-    .block .about-product ul li {
-      margin-bottom: 10px; }
-      .block .about-product ul li:first-child {
-        margin-top: 20px;
-        font-size: 18px; }
-      .block .about-product ul li:nth-child(2) {
-        text-decoration: line-through; }
-      .block .about-product ul li:last-child {
-        font-size: 26px;
-        margin-bottom: 20px; }
-  .block .button-add-basket a {
-    display: block;
-    text-decoration: none;
-    padding: 10px;
-    background: #00a2e8;
-    text-align: center;
-    color: #ffffff; }
-    .block .button-add-basket a:hover {
-      background: #303030;
-      color: #ffffff; }
-
-.hot-products h1, .leaders-products h1 {
-  font-weight: normal; }
-
 /*Футер*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .f-nav > .menu ul, .f-contacts ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -232,7 +174,7 @@ body {
 /*Модальное окно*/
 /*Цвета сайта*/
 /*Чистый список*/
-.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .f-nav > .menu ul, .f-contacts ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -338,4 +280,36 @@ body {
       .feedback-content .feedback-button #submitbtn:hover, .row .feedback-button #submitbtn:hover {
         background: #303030; }
 
-/*# sourceMappingURL=styles.css.map */
+/*Страница Контакты*/
+/*Цвета сайта*/
+/*Чистый список*/
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+.contacts {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 20px 0; }
+  .contacts h1 {
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    padding: 0; }
+
+.contacts-phone, .contacts-email {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center; }
+  .contacts-phone img, .contacts-email img {
+    width: 48px;
+    height: 48px; }
+  .contacts-phone span, .contacts-email span {
+    font-size: 22px;
+    margin: 10px; }
+
+.contacts-email {
+  margin: 0; }
+
+/*# sourceMappingURL=styles-contacts.css.map */

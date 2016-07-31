@@ -1,10 +1,10 @@
 <nav class="menu">
     <ul>
         <li>
-            <a href="#">Главная</a>
+            <a href="index.php">Главная</a>
         </li>
         <li>
-            <a href="#">О нас</a>
+            <a href="about.php">О компании</a>
         </li>
         <li>
             <?php include "popup.html"?>
@@ -13,7 +13,7 @@
             <a href="#">Гарантия</a>
         </li>
         <li>
-            <a href="#">Контакты</a>
+            <a href="contacts.php">Контакты</a>
         </li>
     </ul>
 </nav>

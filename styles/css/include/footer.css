@@ -34,6 +34,12 @@
   color: #ffffff; }
   .f-nav > .menu ul a:hover {
     color: #00a2e8; }
+.f-nav > .menu ul label {
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+  .f-nav > .menu ul label:hover {
+    color: #00a2e8; }
 
 .f-contacts ul {
   color: #ffffff; }

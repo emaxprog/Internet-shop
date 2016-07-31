@@ -37,6 +37,14 @@
       color: $AQUA_COLOR;
     }
   }
+  label{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    &:hover{
+    color: $AQUA_COLOR;
+  }
+  }
 }
 
 .f-contacts{

@@ -13,12 +13,11 @@ body{
 
 /*Шапка сайта*/
 
-@import "include/header";
+@import "../include/header";
 
 
 /*Меню сайта*/
-@import "include/menu";
-
+@import "../include/menu";
 
 /*Контент*/
 .content{
@@ -33,14 +32,14 @@ body{
 }
 
 /*Левая часть*/
-@import "include/left";
-
-/*Центральная часть*/
-@import "include/center";
+@import "../include/left";
 
 /*Футер*/
-@import "include/footer";
+@import "../include/footer";
 
 
 /*Модальное окно*/
-@import "include/popup";
+@import "../include/popup";
+
+/*Страница Контакты*/
+@import "../contacts/contacts-content";
