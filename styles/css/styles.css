@@ -326,4 +326,11 @@ body {
       .feedback-content .feedback-button #submitbtn:hover, .row .feedback-button #submitbtn:hover {
         background: #303030; }
 
+.label {
+  display: flex;
+  justify-content: space-between; }
+  .label .fail {
+    font-size: 14px;
+    color: #ff0000; }
+
 /*# sourceMappingURL=styles.css.map */

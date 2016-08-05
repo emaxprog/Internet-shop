@@ -270,6 +270,13 @@ body {
       .feedback-content .feedback-button #submitbtn:hover, .row .feedback-button #submitbtn:hover {
         background: #303030; }
 
+.label {
+  display: flex;
+  justify-content: space-between; }
+  .label .fail {
+    font-size: 14px;
+    color: #ff0000; }
+
 /*Страница Контакты*/
 .contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
   list-style: none;
