@@ -27,16 +27,13 @@ $(document).ready(function () {
             $(".fail-message").html("<span class='fail'>"+fail+"</span>");
         }
         if(fail==""){
-            // $("#popupCheckBox").trigger("click");
+            $("#popupCheckBox").trigger("click");
             $.ajax({
-                url:"/ajax/feedback.php",
+                url:$("#feedback-form").attr("action"),
                 type:"POST",
                 cache:false,
-                data:{"name":name,"phone":phone,"email":email,"message":message},
-                dataType:"html",
-                success:function (data) {
-                    $(".fail-message").html("<span class='fail'>"+data+"</span>");
-                }
+                data:$("#feedback-form").serialize(),
+                dataType:"html"
             });
         }
     });

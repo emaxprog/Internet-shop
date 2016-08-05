@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="scripts/jquery-ui-1.12.0.custom/jquery-ui.css">
     <script rel="script" type="text/javascript" src="scripts/jquery-ui-1.12.0.custom/jquery-ui.min.js"></script>
     <script rel="script" type="text/javascript" src="scripts/checkFeedback.js"></script>
+    <?php include "functions/functions.php"?>
 </head>
 <body>
 <div class="wrapper-header">

@@ -9,7 +9,7 @@ if($name==""||$email==""||$phone==""||$message==""){
 }
 $headers="From: $email\r\nReply-to:$email\r\nContent-type:text/plain; charset=utf-8\r\n";
 if(mail("alexandr@localhost",$subject,$message,$headers)){
-    echo "Сообщение отправлено 111111";
+    echo "Сообщение отправлено";
 }else{
     echo "Сообщение не отправлено";
 }

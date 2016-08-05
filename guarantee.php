@@ -9,6 +9,9 @@
     <link rel="stylesheet" type="text/css" href="scripts/jquery-ui-1.12.0.custom/jquery-ui.css">
     <script rel="script" type="text/javascript" src="scripts/jquery-ui-1.12.0.custom/jquery-ui.min.js"></script>
     <script rel="script" type="text/javascript" src="scripts/checkFeedback.js"></script>
+    <?php include "functions/functions.php";
+    $articles=getArticles("Гарантия");
+    ?>
 </head>
 <body>
 <div class="wrapper-header">
@@ -27,24 +30,7 @@
             <?php include "include/left.html" ?>
             <div class="center">
                 <div class="guarantee">
-                    <h1>Гарантия</h1>
-                    <h2>Товары оригинальные</h2>
-                    <article>
-                        <p>
-                            Все товары, продаваемые в нашем магазине, являются оригинальными.
-                        </p>
-                    </article>
-                    <h2>Гарантия официальная</h2>
-                    <article>
-                        <p>
-                            На все товары распространяется гарантия соответствующих сервисных центров,
-                            указанных в гарантийных талонах (сервисных книжках) - от 1 года и более.
-                            На ряд товаров мы предоставляем дополнительную гарантию от нашей компании.
-                            В случае поломки или обнаружения каких-либо дефектов в работе,
-                            приобретенных в наших магазинах товаров, обратитесь в сервисные центры,
-                            указанные в вашем гарантийном талоне.
-                        </p>
-                    </article>
+                    <?=$articles["Гарантия"]["text"]; ?>
                 </div>
             </div>
         </div>
