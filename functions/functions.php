@@ -1,5 +1,5 @@
 <?php
-$mysqli=false;
+$mysqli;
 function connectDB(){
     global $mysqli;
     $mysqli=new mysqli("testsite","root","ghjuhfvvbcn96","EmStormDB");
@@ -9,6 +9,16 @@ function connectDB(){
 function closeDB(){
     global $mysqli;
     $mysqli->close();
+}
+
+function getArticle($title){
+    global $mysqli;
+    connectDB();
+    $result=$mysqli->query("SELECT * FROM `articles` WHERE `title` LIKE '$title'");
+    if($result!=false)
+        $row=$result->fetch_assoc();
+    closeDB();
+    return $row;
 }
 
 function getArticles(){

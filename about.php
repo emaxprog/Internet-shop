@@ -10,7 +10,7 @@
     <script rel="script" type="text/javascript" src="scripts/jquery-ui-1.12.0.custom/jquery-ui.min.js"></script>
     <script rel="script" type="text/javascript" src="scripts/checkFeedback.js"></script>
     <?php include "functions/functions.php";
-    $articles=getArticles();
+    $article=getArticle("О компании");
     ?>
 </head>
 <body>
@@ -30,13 +30,13 @@
             <?php include "include/left.html" ?>
             <div class="center">
                 <div class="about">
-                    <?= $articles["О компании"]["text"];?>
+                    <?= $article["text"];?>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="wrapper-footer clearfix">
+<div class="wrapper-footer">
     <div class="mid">
         <?php include "include/footer.php"?>
     </div>
