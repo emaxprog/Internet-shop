@@ -15,16 +15,13 @@ function getArticle($title){
     global $mysqli;
     connectDB();
     $result=$mysqli->query("SELECT * FROM `articles` WHERE `title` LIKE '$title'");
-    if($result!=false)
-        $row=$result->fetch_assoc();
     closeDB();
-    return $row;
+    return $result->fetch_assoc();
 }
 
 function getArticles(){
     global $mysqli;
     connectDB();
-
     $result=$mysqli->query("SELECT * FROM `articles`");
     closeDB();
     return resultToArray($result);
