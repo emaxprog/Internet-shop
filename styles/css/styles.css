@@ -331,9 +331,4 @@ div.mid {
     font-size: 14px;
     color: #ff0000; }
 
-/*Адаптивный дизайн*/
-@media screen and (max-width: 999px) {
-  div.mid {
-    width: 95%; } }
-
 /*# sourceMappingURL=styles.css.map */

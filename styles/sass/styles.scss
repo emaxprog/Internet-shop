@@ -45,9 +45,3 @@ div.mid{
 /*Модальное окно*/
 @import "include/popup";
 
-/*Адаптивный дизайн*/
-@media screen and (max-width: 999px){
-  div.mid{
-    width: 95%;
-  }
-}
