@@ -1,7 +1,17 @@
+<?php include "functions/functions.php"?>
 <?php
-/**
- * Created by PhpStorm.
- * User: alexandr
- * Date: 08.08.16
- * Time: 14:27
- */
+session_start();
+if (isset($_POST['loginBtn'])){
+    $login = htmlspecialchars($_POST['login']);
+    $password = htmlspecialchars($_POST['password']);
+    $_SESSION['login']=$login;
+    $_SESSION['password']=$password;
+    if($user=searchUser($login,$password)){
+        echo "Вы успешно вошли {$user['name']}!"."<br>";
+        echo "Дата регистрации:".$user['date'];
+    }
+    else{
+        echo "Ошибка входа";
+    }
+}
+?>

@@ -16,7 +16,7 @@ if (isset($_POST['regBtn'])){
     $_SESSION['birthday']=$birthday;
     if(addUser($login,$password,$email,$name,$lastname,$birthday)){
         echo "Вы успешно зарегистрировались {$name}!"."<br>";
-        echo "Дата регистрации:".date("D.m.Y")." ".date("H:i:s");
+        echo "Дата регистрации:".date("d.m.Y")." ".date("H:i:s");
     }
     else{
         echo "Ошибка регистрации";
