@@ -32,4 +32,14 @@ function resultToArray($result){
         $array[$row["title"]]=$row;
     return $array;
 }
+
+function addUser($login,$password,$email,$name,$lastname,$birthday){
+    global $mysqli;
+    connectDB();
+    $result=$mysqli->query("INSERT INTO `users` (`login`,`password`,`email`,`name`,`lastname`,`birthday`,`date`) VALUES 
+('$login','".md5("$password")."','$email','$name','$lastname','$birthday','".date("D.m.Y")."')");
+    closeDB();
+    return $result;
+}
+
 ?>
