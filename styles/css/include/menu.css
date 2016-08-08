@@ -10,14 +10,16 @@
 .mid > .menu > ul {
   display: flex;
   justify-content: center; }
-  .mid > .menu > ul li a {
-    display: block;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 18px;
-    padding: 20px; }
-    .mid > .menu > ul li a:hover {
-      background: #303030;
-      color: #ffffff; }
+  .mid > .menu > ul li {
+    white-space: nowrap; }
+    .mid > .menu > ul li a {
+      display: block;
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 18px;
+      padding: 20px; }
+      .mid > .menu > ul li a:hover {
+        background: #303030;
+        color: #ffffff; }
 
 /*# sourceMappingURL=menu.css.map */

@@ -10,12 +10,13 @@
   @extend %ul-clear;
   display: flex;
   li{
+    white-space: nowrap;
     color: $DARK_GREY_COLOR;
     margin: 0 20px;
     font: {
       size: 20px;
       weight: bold;
-    };
+    }
   }
 }
 

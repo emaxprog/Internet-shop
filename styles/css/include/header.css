@@ -12,6 +12,7 @@
 .contacts > ul {
   display: flex; }
   .contacts > ul li {
+    white-space: nowrap;
     color: #303030;
     margin: 0 20px;
     font-size: 20px;
