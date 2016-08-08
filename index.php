@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="scripts/jquery-ui-1.12.0.custom/jquery-ui.css">
     <script rel="script" type="text/javascript" src="scripts/jquery-ui-1.12.0.custom/jquery-ui.min.js"></script>
     <script rel="script" type="text/javascript" src="scripts/checkFeedback.js"></script>
+    <script rel="script" type="text/javascript" src="scripts/fixedMenu.js"></script>
 </head>
 <body>
 <div class="wrapper-header">
@@ -21,6 +22,7 @@
         <?php include "include/menu.php" ?>
     </div>
 </div>
+<div id="fixed"></div>
 <div class="wrapper-content">
     <div class="mid">
         <div class="content">

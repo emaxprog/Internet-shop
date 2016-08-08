@@ -22,4 +22,10 @@
         background: #303030;
         color: #ffffff; }
 
+#fixed-menu {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%; }
+
 /*# sourceMappingURL=menu.css.map */

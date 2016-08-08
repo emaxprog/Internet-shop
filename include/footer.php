@@ -2,7 +2,25 @@
     <div class="f-container">
         <div class="f-nav">
             <h2>Навигация</h2>
-            <?php include "menu.php" ?>
+            <nav class="f-menu">
+                <ul>
+                    <li>
+                        <a href="index.php">Главная</a>
+                    </li>
+                    <li>
+                        <a href="about.php">О компании</a>
+                    </li>
+                    <li>
+                        <?php include "popup.html"?>
+                    </li>
+                    <li>
+                        <a href="guarantee.php">Гарантия</a>
+                    </li>
+                    <li>
+                        <a href="contacts.php">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
         <div class="f-payment-methods">
             <h2>Способы оплаты</h2>

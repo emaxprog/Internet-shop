@@ -9,7 +9,7 @@ body {
   margin: 0 auto; }
 
 /*Шапка сайта*/
-.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .f-menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -41,7 +41,7 @@ body {
         color: #00a2e8; }
 
 /*Меню сайта*/
-.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .f-menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -65,6 +65,12 @@ body {
         background: #303030;
         color: #ffffff; }
 
+#fixed-menu {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%; }
+
 /*Контент*/
 .content {
   display: flex;
@@ -75,7 +81,7 @@ body {
     flex-basis: 740px; }
 
 /*Левая часть*/
-.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .f-menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -114,7 +120,7 @@ body {
     width: 210px; }
 
 /*Футер*/
-.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .f-menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -134,19 +140,19 @@ body {
     padding: 0;
     color: #ffffff; }
 
-.f-nav > .menu ul li {
+.f-nav > .f-menu ul li {
   margin: 10px 0;
   padding: 0; }
-.f-nav > .menu ul a {
+.f-nav > .f-menu ul a {
   text-decoration: none;
   color: #ffffff; }
-  .f-nav > .menu ul a:hover {
+  .f-nav > .f-menu ul a:hover {
     color: #00a2e8; }
-.f-nav > .menu ul label {
+.f-nav > .f-menu ul label {
   margin: 0;
   padding: 0;
   font-size: 16px; }
-  .f-nav > .menu ul label:hover {
+  .f-nav > .f-menu ul label:hover {
     color: #00a2e8; }
 
 .f-contacts ul {
@@ -162,7 +168,7 @@ body {
   color: #ffffff; }
 
 /*Модальное окно*/
-.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .f-menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
@@ -276,7 +282,7 @@ body {
     color: #ff0000; }
 
 /*Страница Контакты*/
-.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .menu ul, .f-contacts ul {
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .f-menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
