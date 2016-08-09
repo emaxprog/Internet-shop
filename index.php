@@ -14,7 +14,7 @@
 <body>
 <div class="wrapper-header">
     <div class="mid">
-        <?php include "include/header.html"?>
+        <?php include "include/header.php" ?>
     </div>
 </div>
 <div class="wrapper-menu">

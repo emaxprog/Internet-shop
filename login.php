@@ -5,11 +5,13 @@
     <title>Вход</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="styles/css/styles.css">
+    <?php session_start();?>
 </head>
 <body>
 <div class="wrapper-registration">
     <div class="mid">
         <div class="login-form">
+            <div class="error"><?=$_SESSION['error']?></div>
             <form method="post" action="query-login.php">
                 <label for="login">Введите логин:</label><br>
                 <input type="text" name="login" id="login" placeholder="Введите логин"><br>

@@ -38,3 +38,11 @@
     }
   }
 }
+
+.authorizations{
+  .login{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+  }
+}

@@ -29,4 +29,9 @@
       .authorizations > ul li a:hover {
         color: #00a2e8; }
 
+.authorizations .login {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end; }
+
 /*# sourceMappingURL=header.css.map */

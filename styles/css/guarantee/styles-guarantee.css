@@ -40,6 +40,11 @@ body {
       .authorizations > ul li a:hover {
         color: #00a2e8; }
 
+.authorizations .login {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end; }
+
 /*Меню сайта*/
 .contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .f-menu ul, .f-contacts ul {
   list-style: none;
