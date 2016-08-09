@@ -15,21 +15,33 @@
 <div class="wrapper-registration">
     <div class="mid">
         <div class="registration-form">
-            <form method="post" action="functions/query-registration.php">
-                <label for="login">Введите логин:</label><br>
-                <input type="text" name="login" id="login" placeholder="Введите логин" value="<?=$_SESSION['login']?>"><br>
-                <label for="email">Введите email:</label><br>
-                <input type="text" name="email" id="email" placeholder="Введите email" value="<?=$_SESSION['email']?>"><br>
-                <label for="password">Введите пароль:</label><br>
-                <input type="password" name="password" id="password" placeholder="Введите пароль" value="<?=$_SESSION['password']?>"><br>
-                <label for="name">Введите имя:</label><br>
-                <input type="text" name="name" id="name" placeholder="Введите имя" value="<?=$_SESSION['name']?>"><br>
-                <label for="lastname">Введите фамилию:</label><br>
-                <input type="text" name="lastname" id="lastname" placeholder="Введите фамилию" value="<?=$_SESSION['lastname']?>"><br>
-                <label for="birthday">Введите дату рождения:</label><br>
-                <input type="text" name="birthday" id="birthday" placeholder="Введите дату рождения" value="<?=$_SESSION['birthday']?>"><br>
-                <input type="submit" name="regBtn" value="Регистрация">
-            </form>
+            <div class="form">
+                <h1>Регистрация</h1>
+                <?php
+                if(isset($_SESSION['error'])) {
+                    ?>
+                    <div class="error"><?= $_SESSION['error'] ?></div>
+                    <?php
+                }
+                ?>
+                <form method="post" action="functions/query-registration.php">
+                    <label for="login">Введите логин:</label><br>
+                    <input type="text" name="login" id="login" class="txt" placeholder="Введите логин" value="<?=$_SESSION['login']?>"><br>
+                    <label for="email">Введите email:</label><br>
+                    <input type="text" name="email" id="email" class="txt" placeholder="Введите email" value="<?=$_SESSION['email']?>"><br>
+                    <label for="password">Введите пароль:</label><br>
+                    <input type="password" name="password" id="password" class="txt" placeholder="Введите пароль" value="<?=$_SESSION['password']?>"><br>
+                    <label for="name">Введите имя:</label><br>
+                    <input type="text" name="name" id="name" class="txt" placeholder="Введите имя" value="<?=$_SESSION['name']?>"><br>
+                    <label for="lastname">Введите фамилию:</label><br>
+                    <input type="text" name="lastname" id="lastname" class="txt" placeholder="Введите фамилию" value="<?=$_SESSION['lastname']?>"><br>
+                    <label for="birthday">Введите дату рождения:</label><br>
+                    <input type="text" name="birthday" id="birthday" class="txt" placeholder="Введите дату рождения" value="<?=$_SESSION['birthday']?>"><br>
+                    <div class="buttons">
+                        <input type="submit" name="regBtn" class="button" value="Регистрация">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>

@@ -22,9 +22,9 @@
                 ?>
                 <form method="post" action="functions/query-login.php">
                     <label for="login">Введите логин:</label><br>
-                    <input type="text" name="login" id="login" class="txtarea" placeholder="Введите логин"><br>
+                    <input type="text" name="login" id="login" class="txt" placeholder="Введите логин"><br>
                     <label for="password">Введите пароль:</label><br>
-                    <input type="password" name="password" id="password" class="txtarea" placeholder="Введите пароль"><br>
+                    <input type="password" name="password" id="password" class="txt" placeholder="Введите пароль"><br>
                     <div class="buttons">
                         <input type="submit" name="loginBtn" class="button" value="Войти">
                         <button formaction="registration.php" class="button">Регистрация</button>

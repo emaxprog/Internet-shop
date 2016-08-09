@@ -15,6 +15,33 @@ div.mid {
   margin: 0;
   padding: 0; }
 
+.login-form, .registration-form {
+  display: flex;
+  justify-content: center; }
+  .login-form .form, .registration-form .form {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 30px; }
+    .login-form .form h1, .registration-form .form h1 {
+      text-align: center;
+      font-weight: normal;
+      margin: 0 0 10px 0;
+      padding: 0; }
+    .login-form .form .error, .registration-form .form .error {
+      text-align: center;
+      background: #ff0000;
+      padding: 5px;
+      border-radius: 5px;
+      opacity: 0.5;
+      color: #ffffff; }
+  .login-form form .txt, .registration-form form .txt {
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+    font-size: 24px;
+    margin-bottom: 15px; }
+
 .header {
   display: flex;
   align-items: center;
@@ -59,6 +86,33 @@ div.mid {
   margin: 0;
   padding: 0; }
 
+.login-form, .registration-form {
+  display: flex;
+  justify-content: center; }
+  .login-form .form, .registration-form .form {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 30px; }
+    .login-form .form h1, .registration-form .form h1 {
+      text-align: center;
+      font-weight: normal;
+      margin: 0 0 10px 0;
+      padding: 0; }
+    .login-form .form .error, .registration-form .form .error {
+      text-align: center;
+      background: #ff0000;
+      padding: 5px;
+      border-radius: 5px;
+      opacity: 0.5;
+      color: #ffffff; }
+  .login-form form .txt, .registration-form form .txt {
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+    font-size: 24px;
+    margin-bottom: 15px; }
+
 .wrapper-menu {
   background: #00a2e8; }
 
@@ -99,6 +153,33 @@ div.mid {
   margin: 0;
   padding: 0; }
 
+.login-form, .registration-form {
+  display: flex;
+  justify-content: center; }
+  .login-form .form, .registration-form .form {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 30px; }
+    .login-form .form h1, .registration-form .form h1 {
+      text-align: center;
+      font-weight: normal;
+      margin: 0 0 10px 0;
+      padding: 0; }
+    .login-form .form .error, .registration-form .form .error {
+      text-align: center;
+      background: #ff0000;
+      padding: 5px;
+      border-radius: 5px;
+      opacity: 0.5;
+      color: #ffffff; }
+  .login-form form .txt, .registration-form form .txt {
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+    font-size: 24px;
+    margin-bottom: 15px; }
+
 .menu-products {
   margin-top: 20px;
   margin-bottom: 20px; }
@@ -137,6 +218,33 @@ div.mid {
   text-decoration: none;
   margin: 0;
   padding: 0; }
+
+.login-form, .registration-form {
+  display: flex;
+  justify-content: center; }
+  .login-form .form, .registration-form .form {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 30px; }
+    .login-form .form h1, .registration-form .form h1 {
+      text-align: center;
+      font-weight: normal;
+      margin: 0 0 10px 0;
+      padding: 0; }
+    .login-form .form .error, .registration-form .form .error {
+      text-align: center;
+      background: #ff0000;
+      padding: 5px;
+      border-radius: 5px;
+      opacity: 0.5;
+      color: #ffffff; }
+  .login-form form .txt, .registration-form form .txt {
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+    font-size: 24px;
+    margin-bottom: 15px; }
 
 /*Афиша*/
 .center > .afisha {
@@ -194,6 +302,33 @@ div.mid {
   margin: 0;
   padding: 0; }
 
+.login-form, .registration-form {
+  display: flex;
+  justify-content: center; }
+  .login-form .form, .registration-form .form {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 30px; }
+    .login-form .form h1, .registration-form .form h1 {
+      text-align: center;
+      font-weight: normal;
+      margin: 0 0 10px 0;
+      padding: 0; }
+    .login-form .form .error, .registration-form .form .error {
+      text-align: center;
+      background: #ff0000;
+      padding: 5px;
+      border-radius: 5px;
+      opacity: 0.5;
+      color: #ffffff; }
+  .login-form form .txt, .registration-form form .txt {
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+    font-size: 24px;
+    margin-bottom: 15px; }
+
 .wrapper-footer {
   margin: 0;
   padding: 0;
@@ -241,6 +376,33 @@ div.mid {
   text-decoration: none;
   margin: 0;
   padding: 0; }
+
+.login-form, .registration-form {
+  display: flex;
+  justify-content: center; }
+  .login-form .form, .registration-form .form {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 30px; }
+    .login-form .form h1, .registration-form .form h1 {
+      text-align: center;
+      font-weight: normal;
+      margin: 0 0 10px 0;
+      padding: 0; }
+    .login-form .form .error, .registration-form .form .error {
+      text-align: center;
+      background: #ff0000;
+      padding: 5px;
+      border-radius: 5px;
+      opacity: 0.5;
+      color: #ffffff; }
+  .login-form form .txt, .registration-form form .txt {
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+    font-size: 24px;
+    margin-bottom: 15px; }
 
 .popup-checkbox, .popup {
   display: none; }
@@ -353,53 +515,117 @@ div.mid {
 @media screen and (max-width: 999px) {
   div.mid {
     width: 95%; } }
-/*Вход*/
+/*Авторизация*/
 .contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .f-nav > .f-menu ul, .f-contacts ul {
   list-style: none;
   text-decoration: none;
   margin: 0;
   padding: 0; }
 
-.login-form {
+.login-form, .registration-form {
   display: flex;
-  justify-content: center;
-  margin-top: 150px; }
-  .login-form .form {
+  justify-content: center; }
+  .login-form .form, .registration-form .form {
     border: 1px solid #cccccc;
     border-radius: 10px;
-    padding: 60px; }
-    .login-form .form h1 {
+    padding: 30px; }
+    .login-form .form h1, .registration-form .form h1 {
       text-align: center;
       font-weight: normal;
       margin: 0 0 10px 0;
       padding: 0; }
-    .login-form .form .error {
+    .login-form .form .error, .registration-form .form .error {
       text-align: center;
       background: #ff0000;
       padding: 5px;
       border-radius: 5px;
       opacity: 0.5;
       color: #ffffff; }
-  .login-form form .txtarea {
+  .login-form form .txt, .registration-form form .txt {
     height: 40px;
     width: 400px;
     border-radius: 5px;
     border: 2px solid #cccccc;
     font-size: 24px;
     margin-bottom: 15px; }
-  .login-form form .buttons {
-    display: flex;
-    justify-content: space-between; }
-    .login-form form .buttons .button {
-      flex-grow: 1;
-      margin: 0 10px;
-      border: none;
-      background: #00a2e8;
-      color: #ffffff;
-      padding: 20px;
-      font-size: 18px; }
-      .login-form form .buttons .button:hover {
-        background: #303030;
-        color: #ffffff; }
+
+.wrapper-login > .mid {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.login-form .buttons {
+  display: flex;
+  justify-content: space-between; }
+  .login-form .buttons .button {
+    flex-grow: 1;
+    margin: 0 10px;
+    border: none;
+    background: #00a2e8;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 18px; }
+    .login-form .buttons .button:hover {
+      background: #303030;
+      color: #ffffff; }
+
+.contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .block .about-product ul, .f-nav > .f-menu ul, .f-contacts ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+.login-form, .registration-form {
+  display: flex;
+  justify-content: center; }
+  .login-form .form, .registration-form .form {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 30px; }
+    .login-form .form h1, .registration-form .form h1 {
+      text-align: center;
+      font-weight: normal;
+      margin: 0 0 10px 0;
+      padding: 0; }
+    .login-form .form .error, .registration-form .form .error {
+      text-align: center;
+      background: #ff0000;
+      padding: 5px;
+      border-radius: 5px;
+      opacity: 0.5;
+      color: #ffffff; }
+  .login-form form .txt, .registration-form form .txt {
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+    font-size: 24px;
+    margin-bottom: 15px; }
+
+.wrapper-registration > .mid {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.registration-form .buttons {
+  display: flex;
+  justify-content: space-between; }
+  .registration-form .buttons .button {
+    flex-grow: 1;
+    margin: 0;
+    border: none;
+    background: #00a2e8;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 18px; }
+    .registration-form .buttons .button:hover {
+      background: #303030;
+      color: #ffffff; }
 
 /*# sourceMappingURL=styles.css.map */

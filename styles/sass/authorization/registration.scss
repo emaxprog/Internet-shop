@@ -1,0 +1,29 @@
+@import "templates";
+.wrapper-registration>.mid{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registration-form{
+  @extend %form-authorization;
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    .button{
+      flex-grow: 1;
+      margin: 0;
+      border: none;
+      background: $AQUA_COLOR;
+      color: $WHITE_COLOR;
+      padding: 20px;
+      font-size: 18px;
+      &:hover{
+        background: $DARK_GREY_COLOR;
+        color: $WHITE_COLOR;
+      }
+    }
+  }
+}
