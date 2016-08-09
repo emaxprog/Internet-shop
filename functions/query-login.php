@@ -1,4 +1,4 @@
-<?php include "functions/functions.php"?>
+<?php include "functions-db.php" ?>
 <?php
 session_start();
 if (isset($_POST['loginBtn'])){

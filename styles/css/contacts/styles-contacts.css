@@ -43,7 +43,14 @@ body {
 .authorizations .login {
   display: flex;
   flex-flow: column nowrap;
-  align-items: flex-end; }
+  align-items: flex-end;
+  margin: 0 20px; }
+  .authorizations .login a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #303030; }
+    .authorizations .login a:hover {
+      color: #00a2e8; }
 
 /*Меню сайта*/
 .contacts > ul, .authorizations > ul, .mid > .menu > ul, .menu-products ul, .f-nav > .f-menu ul, .f-contacts ul {

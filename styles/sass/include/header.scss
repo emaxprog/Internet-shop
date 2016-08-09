@@ -44,5 +44,14 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-end;
+    margin: 0 20px;
+    a{
+      font-size: 18px;
+      text-decoration: none;
+      color: $DARK_GREY_COLOR;
+      &:hover{
+        color: $AQUA_COLOR;
+      }
+    }
   }
 }

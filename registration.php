@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Вход</title>
+    <title>Регистрация</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="styles/css/styles.css">
     <script rel="script" type="text/javascript" src="scripts/jQuery/jquery-3.1.0.js"></script>
@@ -15,7 +15,7 @@
 <div class="wrapper-registration">
     <div class="mid">
         <div class="registration-form">
-            <form method="post" action="query-registration.php">
+            <form method="post" action="functions/query-registration.php">
                 <label for="login">Введите логин:</label><br>
                 <input type="text" name="login" id="login" placeholder="Введите логин" value="<?=$_SESSION['login']?>"><br>
                 <label for="email">Введите email:</label><br>

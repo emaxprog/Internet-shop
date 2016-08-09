@@ -10,7 +10,7 @@
     <script rel="script" type="text/javascript" src="scripts/jquery-ui-1.12.0.custom/jquery-ui.min.js"></script>
     <script rel="script" type="text/javascript" src="scripts/checkFeedback.js"></script>
     <script rel="script" type="text/javascript" src="scripts/fixedMenu.js"></script>
-    <?php include "functions/functions.php";
+    <?php include "functions/functions-db.php";
     $article=getArticle("Гарантия");
     ?>
 </head>

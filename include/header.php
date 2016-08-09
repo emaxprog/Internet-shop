@@ -19,7 +19,7 @@
             ?>
             <div class="login">
                 <span>Здравствуйте, <?= $_SESSION['name']." ".$_SESSION['lastname'] ?></span>
-                <a href="logout.php">Выход</a>
+                <a href="/functions/logout.php">Выход</a>
             </div>
             <?php
         } else {
